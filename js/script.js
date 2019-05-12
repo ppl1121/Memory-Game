@@ -49,22 +49,22 @@ function resetBoard() {
 
 $(document).ready(function() {
 
-    let string = "<div class='memory-card' data-framework='aurelia'><img class='front-face' src='../img/abra.svg' alt='Abra' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
+    let string = "<div class='memory-card' data-framework='abra'><img class='front-face' src='../img/abra.svg' alt='Abra' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
     $(".memory-game").append(string);
     $(".memory-game").append(string);
-    string = "<div class='memory-card' data-framework='vue'><img class='front-face' src='../img/snorlax.svg' alt='Snorlax' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
+    string = "<div class='memory-card' data-framework='snorlax'><img class='front-face' src='../img/snorlax.svg' alt='Snorlax' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
     $(".memory-game").append(string);
     $(".memory-game").append(string);
-    string = "<div class='memory-card' data-framework='angular'><img class='front-face' src='../img/dratini.svg' alt='Dratini' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
+    string = "<div class='memory-card' data-framework='dratini'><img class='front-face' src='../img/dratini.svg' alt='Dratini' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
     $(".memory-game").append(string);
     $(".memory-game").append(string);
-    string = "<div class='memory-card' data-framework='ember'><img class='front-face' src='../img/pikachu.svg' alt='Pikachu' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
+    string = "<div class='memory-card' data-framework='pikachu'><img class='front-face' src='../img/pikachu.svg' alt='Pikachu' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
     $(".memory-game").append(string);
     $(".memory-game").append(string);
-    string = "<div class='memory-card' data-framework='backbone'><img class='front-face' src='../img/jigglypuff.svg' alt='Jigglypuff' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
+    string = "<div class='memory-card' data-framework='jigglypuff'><img class='front-face' src='../img/jigglypuff.svg' alt='Jigglypuff' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
     $(".memory-game").append(string);
     $(".memory-game").append(string);
-    string = "<div class='memory-card' data-framework='react'><img class='front-face' src='../img/bellsprout.svg' alt='Bellsprout' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
+    string = "<div class='memory-card' data-framework='bellsprout'><img class='front-face' src='../img/bellsprout.svg' alt='Bellsprout' /><img class='back-face' src='../img/pokeball.svg' alt='Pokeball' /></div>";
     $(".memory-game").append(string);
     $(".memory-game").append(string);
     $cards = $(".memory-card");
